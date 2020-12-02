@@ -5,4 +5,50 @@ body{
 body > header{
     background-color: rgb(106, 106, 248);
     color: cornsilk;
+    padding: 16px;
+    display: flex;
+    text-align: flex-start;
 }
+
+body > header > nav {
+    display: flex;
+    align-content: flex-end;
+}
+
+#holiday-picker{
+    background-color: darkblue;
+    color: cornsilk;
+    display: flex;
+    padding: 16px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+#destinations{
+    display: flex;
+    flex-flow: row wrap;
+ }
+
+#gallery-1 {
+    display: flex;
+    flex-flow: row wrap;
+ }
+
+ #gallery-2{
+    display: flex;
+    flex-flow: row wrap;
+ }
+
+ #reviews{
+    display: flex;
+    flex-flow: row wrap;
+ }
+
+.image {
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    border: 1px solid white;
+    flex: 33%;
+  }
